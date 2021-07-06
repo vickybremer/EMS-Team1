@@ -1,0 +1,92 @@
+body {
+    background: #ffffff;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  /*.wegweiser {
+    text-align: center;
+  }*/
+  
+  .team {
+    color: #000000;
+    font-family: "Avenir";
+    font-size: 3em;
+    font-weight: bold;
+    position: absolute;
+    top: 61px;
+    left: 205px;
+    
+  }
+  a.team:visited {
+    color: #808080;
+  }
+  a.team:link {
+    color: #32ffa9;
+  }
+  a.team:hover {
+    color: #ff3c66;
+  }
+  
+  .problem {
+    font-family: "Avenir";
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    position: absolute;
+    top: 166px;
+    left: 175px;
+  }
+  
+  a.problem:visited {
+    color: #808080;
+  }
+  a.problem:link {
+    color: #32ffa9;
+  }
+  a.problem:hover {
+    color: #ff3c66;
+  }
+  
+  .lösung {
+    font-family: "Avenir";
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    position: absolute;
+    top: 288px;
+    left: 175px;
+    
+  }
+  
+  a.lösung:visited {
+    color: #808080;
+  }
+  a.lösung:link {
+    color: #32ffa9;
+  }
+  a.lösung:hover {
+    color: #ff3c66;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  .container {
+    width: 600px;
+    height: 500px;
+    /*background-image: url(wegweiser2.svg);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 0 auto;
+  }
+  
