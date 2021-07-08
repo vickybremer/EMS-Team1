@@ -6,87 +6,97 @@ body {
     text-align: center;
   }
   
-  /*.wegweiser {
-    text-align: center;
-  }*/
-  
-  .team {
-    color: #000000;
-    font-family: "Avenir";
-    font-size: 3em;
-    font-weight: bold;
-    position: absolute;
-    top: 61px;
-    left: 205px;
-    
-  }
-  a.team:visited {
-    color: #808080;
-  }
-  a.team:link {
-    color: #32ffa9;
-  }
-  a.team:hover {
-    color: #ff3c66;
-  }
-  
-  .problem {
-    font-family: "Avenir";
-    text-align: center;
-    font-size: 3em;
-    font-weight: bold;
-    position: absolute;
-    top: 166px;
-    left: 175px;
-  }
-  
-  a.problem:visited {
-    color: #808080;
-  }
-  a.problem:link {
-    color: #32ffa9;
-  }
-  a.problem:hover {
-    color: #ff3c66;
-  }
-  
-  .lösung {
-    font-family: "Avenir";
-    text-align: center;
-    font-size: 3em;
-    font-weight: bold;
-    position: absolute;
-    top: 288px;
-    left: 175px;
-    
-  }
-  
-  a.lösung:visited {
-    color: #808080;
-  }
-  a.lösung:link {
-    color: #32ffa9;
-  }
-  a.lösung:hover {
-    color: #ff3c66;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  a:visited {
-    text-decoration: none;
-  }
-  
   .container {
-    width: 600px;
-    height: 500px;
-    /*background-image: url(wegweiser2.svg);*/
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    margin: 0 auto;
-  }
+    width: 100%;
+    height: 100vh;
+    /* margin: 130px auto; */
+    display: flex;
+    justify-content: center;
+}
+
+
+.card_one:hover, .card_two:hover, .card_three:hover, .card_four:hover, .card_five:hover, .card_six:hover {
+    background-color:rgb(148, 168, 233);
+    transform: translateY(-10px);
+    /* transform:scale(1.1);  */
+}
+
+
+.card_one {
+    position:absolute;
+    top: 370px;
+    width: 380px;
+    height: 200px;
+    border-radius: 10px;
+    background-color:rgb(211, 176, 202);
+    color: honeydew;
+    text-align: center;
+    margin: 0px 10px;
+    transition-duration: 0.35s;
+}
+
+.card_two {
+    position:absolute;
+    top: 330px;
+    width: 360px;
+    height: 200px;
+    border-radius: 10px;
+    background-color:rgb(192, 160, 184);
+    color: honeydew;
+    text-align: center;
+    margin: 0px 10px;
+    transition-duration: 0.35s;
+} 
+
+.card_three {
+    position:absolute;
+    top: 290px;
+    width: 340px;
+    height: 200px;
+    border-radius: 10px;
+    background-color:rgb(179, 149, 172);
+    color: honeydew;
+    text-align: center;
+    margin: 0px 10px;
+    transition-duration: 0.35s;
+}
+
+.card_four {
+    position:absolute;
+    top: 250px;
+    width: 320px;
+    height: 200px;
+    border-radius: 10px;
+    background-color:rgb(168, 140, 162);
+    color: honeydew;
+    text-align: center;
+    margin: 0px 10px;
+    transition-duration: 0.35s;
+} 
+
+.card_five {
+    position:absolute;
+    top: 210px;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    background-color:rgb(161, 134, 155);
+    color: honeydew;
+    text-align: center;
+    margin: 0px 10px;
+    transition-duration: 0.35s;
+} 
+
+.card_six {
+    position:absolute;
+    top: 170px;
+    width: 280px;
+    height: 200px;
+    border-radius: 10px;
+    background-color:rgb(146, 122, 141);
+    color: honeydew;
+    text-align: center;
+    margin: 0px 10px;
+    transition-duration: 0.35s;
+}
   
