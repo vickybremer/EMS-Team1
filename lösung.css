@@ -1,0 +1,45 @@
+        section {
+            display: flex;
+            flex-wrap: wrap;  
+            justify-content: center;
+        }
+        /* The flex items break into multiple lines. */
+
+        /* TAKE OBJECT FAR FROM PERSPECTIVE VIEW with 1000px */
+        .card {
+            /* background-color: #0000aa; */
+            perspective: 1000px;
+            margin: 1rem;
+        }
+
+        /* card is in Grid SET SAME COLUMN AND ROW FOR BOTH CARD */
+        .card-container {
+            display: grid;
+            grid-template-columns: 1fr;
+
+
+            transition: all 1s ease;
+
+            transform-style: preserve-3d;
+        }
+
+        .card-front {
+            grid-area: 1 / 1;
+            transform: rotateY(180deg);
+        }
+
+        .card-back {
+            grid-area: 1 / 1;
+        }
+
+        /* FIX CARD IMAGES WIDTH */
+        .card-container img {
+            width: 15rem;
+        }
+
+        .card:hover .card-container {
+            transform: rotateY(180deg);
+        }
+
+
+        /* https://www.youtube.com/watch?v=aFiTZwM19wc */
