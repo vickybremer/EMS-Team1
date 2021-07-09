@@ -30,7 +30,7 @@ footer{
   text-align: center;
 }
 
-.nav-header {
+/* .nav-header {
     display: flex;
     justify-content: center;
     font-family: "dunbar tall";
@@ -43,7 +43,7 @@ h1 {
 
 h2 {
     font-size: 40px;
-}
+} */
 
 .flip-card-container{
     width: 300px;
