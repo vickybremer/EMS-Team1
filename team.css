@@ -15,6 +15,19 @@ body{
     display: flex;
     justify-content: center;
 
+
+}
+footer{
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    height: 50px;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  text-align: center;
 }
 
 .nav-header {
@@ -101,6 +114,24 @@ h2 {
     justify-content: center;
 }
 
+
+.team {
+    font-weight: 600;
+    font-family: "skia";
+    text-align: center;
+    font-size: 20;
+    color: rgb(252, 227, 255);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  span {
+    text-align: center;
+  }
 
 /*FlipCard Tutorial: https://www.youtube.com/watch?v=Lc6wyl1KdOc
 FLIP GEHT AUCH ON CLICK MIT JS
