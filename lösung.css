@@ -24,7 +24,7 @@ img{
 	padding: 100px 0;
 }
 .flip-main .flip-card{
-    flex:0 0 calc(33.33% - 30px);
+    flex:0 0 calc(25% - 30px);
     margin:0 15px 30px;
     perspective: 1000px; /*remove this if you dont want the 3d effect*/
 }
