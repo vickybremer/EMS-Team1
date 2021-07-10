@@ -16,6 +16,18 @@ footer{
     text-align: center;
 }
 
+button{
+  background-color: #ffd338;
+  color: rgb(255, 255, 255);
+  border: none;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 13px;
+  padding:10px 15px;
+  cursor: pointer;
+  font-family: "dunbar tall";
+}
+
 /* hier muss Lösung (H2) eigentlich noch ein Stück
 nach links... ist nicht mittig. */
 

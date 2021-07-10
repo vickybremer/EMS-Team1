@@ -11,6 +11,18 @@ footer{
     text-align: center;
 }
 
+button{
+    background-color:#800c5d;
+    color: rgb(255, 255, 255);
+    border: none;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 13px;
+    padding:10px 15px;
+    cursor: pointer;
+    font-family: "dunbar tall";
+}
+
 .nav-header {
     font-family: "dunbar tall";
     width: 100%;

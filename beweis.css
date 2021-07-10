@@ -1,3 +1,4 @@
+
 footer{
     width: 100%;
     bottom: 0;
@@ -10,6 +11,18 @@ footer{
     flex-direction: column;
     text-align: center;
 }
+
+button{
+    background-color: #e40a6d;
+    color: rgb(255, 255, 255);
+    border: none;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 13px;
+    padding:10px 15px;
+    cursor: pointer;
+    font-family: "dunbar tall";
+  }
 
 .nav-header {
     font-family: "dunbar tall";
