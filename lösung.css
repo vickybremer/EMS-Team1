@@ -13,7 +13,32 @@ footer{
     display: flex;
     justify-content: center;
     flex-direction: column;
-  text-align: center;
+    text-align: center;
+}
+
+/* hier muss Lösung (H2) eigentlich noch ein Stück
+nach links... ist nicht mittig. */
+
+.nav-header {
+    font-family: "dunbar tall";
+    margin: 30px;
+    width: 100%;
+    left: 0px;
+    height: 50px;
+    
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 13px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
 }
 
 
@@ -21,6 +46,7 @@ footer{
 	box-sizing: border-box;
 	margin:0;
 }
+
 img{
 	max-width: 100%;
 	vertical-align: middle;
