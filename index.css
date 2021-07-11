@@ -39,6 +39,10 @@ header {
     color:#732ddb;
     transform: translateY(-23px);
 }
+.card_seven:hover{
+    color:#ff8e15;
+    transform: translateY(-23px);
+}
 
 .card_one {
     position:absolute;
@@ -124,6 +128,22 @@ header {
     position:absolute;
     top: 170px;
     width: 480px;
+    height: 200px;
+    border-radius: 7px;
+    background-color:rgb(255, 255, 255);
+    color: #434068;
+    text-align: center;
+    font-family: "dunbar tall";
+    text-decoration: none;
+    margin: 0px 10px;
+    transition-duration: 0.2s;
+    box-shadow: 0 0 10px #bab7da;
+}
+
+.card_seven {
+    position:absolute;
+    top: 130px;
+    width: 460px;
     height: 200px;
     border-radius: 7px;
     background-color:rgb(255, 255, 255);
