@@ -1,18 +1,26 @@
-footer{
-    width: 100%;
-    bottom: 20px;
-    position: fixed;
-    left: 0;
-    height: 50px;
-    
-    display: flex;
+
+
+.bild{
+    width: 50%;
+    /* height: auto; */
     justify-content: center;
-    flex-direction: column;
-    text-align: center;
+}
+
+img {
+    max-width: 500px;
+    height: auto;
+    
+  }
+
+.text{
+    width:50%;
+    justify-content: center;
+    
+    padding:20px;
 }
 
 button{
-    background-color:#800c5d;
+    background-color: #ff0000;
     color: rgb(255, 255, 255);
     border: none;
     text-decoration: none;
@@ -22,25 +30,4 @@ button{
     cursor: pointer;
     font-family: "dunbar tall";
 }
-
-.nav-header {
-    font-family: "dunbar tall";
-    width: 100%;
-    left: 0px;
-    height: 50px;
-    
-    display: flex;
-    position: fixed;
-    justify-content: center;
-    flex-direction: column;
-}
-
-h1 {
-    font-size: 13px;
-    margin: 30px;
-}
-
-h2 {
-    font-size: 40px;
-    text-align: center;
-}
+  
