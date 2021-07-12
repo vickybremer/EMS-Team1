@@ -7,7 +7,6 @@ header {
     text-align: center;
 }
   
-  
 .container {
     width: 100%;
     height: 100vh;
@@ -15,37 +14,44 @@ header {
     justify-content: center;
 }
 
-
+/* team */
 .card_one:hover{
-    color:#b83ae5;
+    color: #ffd338;
     transform: translateY(-23px);
 }
+/* problem */
 .card_two:hover{
     color:#ff8e15;
     transform: translateY(-23px);
 }
+/* lösung */
 .card_three:hover{
-    color: #ffd338;
+    color:#b83ae5;
     transform: translateY(-23px);
 }
+/* beweis */
 .card_four:hover{
     color:#e40a6d;
     transform: translateY(-23px);
 }
+/* entscheidungsoptionen */
 .card_five:hover{
+    color:#732ddb;
+    
+    transform: translateY(-23px);
+}
+/* produktvideo */
+.card_six:hover{
     color:#00ffbc;
     transform: translateY(-23px);
 }
-.card_six:hover{
-    color:#732ddb;
-    transform: translateY(-23px);
-}
+/* literaturverzeichnis */
 .card_seven:hover{
-    color:#ff8e15;
+    color:#6f60e7;
     transform: translateY(-23px);
 }
 
-.card_one {
+.card_one{
     position:absolute;
     top: 370px;
     width: 580px;

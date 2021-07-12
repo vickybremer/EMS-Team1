@@ -4,13 +4,7 @@
     box-sizing: border-box;
 }
 
-img {
-    display: flex;
-    width: 50vh;
-    margin: auto;
-}
-
 /* back-to-box-button Farbe */
-#green{
-    background-color: chartreuse;
+#blue{
+    background-color: #6f60e7;
 }
