@@ -171,7 +171,7 @@ header {
     width:700px;
     height: auto;
     z-index: 999;
-    top: 520px;
+    top: 530px;
 }
 
 /* Rückseite der Box */
@@ -179,6 +179,6 @@ header {
     position: absolute;
     width:700px;
     height: auto;
-    z-index: 999;
-    top: 520px;
+    
+    top: 390px;
 }
