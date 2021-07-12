@@ -164,6 +164,18 @@ header {
     transition-duration: 0.2s;
     box-shadow: 0 0 10px #bab7da;
 }
+
+#switch {
+    width: 30px;
+    height: 10px;
+    background-color: lightcoral;
+}
+
+
+#imageLid {
+    width: auto;
+    height: 30px;
+}
   
 /* Vorderseite der Box */
 #Vorderseite{

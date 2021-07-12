@@ -59,8 +59,8 @@ main{
 
 
 @media(max-width:770px){
-        main{
-            flex-wrap:wrap;
+    main{
+        flex-wrap:wrap;
         justify-content: center;}
     }
 
