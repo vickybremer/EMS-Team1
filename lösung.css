@@ -16,6 +16,11 @@ img {
     margin: auto;
 }
 
+/* back-to-box-button Farbe */
+#magenta{
+    background-color: #b83ae5;
+}
+
 button{
     height: 30px;
     margin: 5px;

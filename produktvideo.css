@@ -11,35 +11,9 @@ footer{
     text-align: center;
 }
 
-button{
+/* back-to-box-button Farbe */
+#purple{
     background-color:#732ddb;
-    color: rgb(255, 255, 255);
-    border: none;
-    text-decoration: none;
-    border-radius: 6px;
-    font-size: 13px;
-    padding:10px 15px;
-    cursor: pointer;
-    font-family: "dunbar tall";
-}
-.nav-header {
-    font-family: "dunbar tall";
-    width: 100%;
-    left: 0px;
-    height: 50px;
-    
-    display: flex;
-    position: fixed;
-    justify-content: center;
-    flex-direction: column;
 }
 
-h1 {
-    font-size: 13px;
-    margin: 30px;
-}
 
-h2 {
-    font-size: 40px;
-    text-align: center;
-}
