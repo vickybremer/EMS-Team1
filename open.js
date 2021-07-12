@@ -1,6 +1,7 @@
-let img = document.querySelector('img');
-let buttonOpen = document.querySelector('#open-box');
 
-buttonOpen.addEventListener('click', () => {
-    img.src = 'assets/Opener-Box-Deckel offen.png'
-});
+
+document.getElementById("switch").onclick = function () { openLid() };
+function openLid() {
+    var img = document.getElementById("imageLid");
+    img.src = "assets/Opener-Box-Deckel offen.png";
+}

@@ -51,10 +51,18 @@ h2 {
 /* CONTENT */
 main{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 140px;
-    
+    overflow: hidden;
+    align-items: center;
   }
+
+
+@media(max-width:770px){
+        main{
+            flex-wrap:wrap;
+        justify-content: center;}
+    }
 
 /* UNTEN */
 footer{
@@ -81,5 +89,12 @@ button{
     margin-right: 16px;
     cursor: pointer;
     font-family: "dunbar tall";
+}
+
+.bild-flex{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
