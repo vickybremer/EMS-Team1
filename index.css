@@ -1,5 +1,6 @@
 body {
     background: #ffffff;
+    overflow: hidden;
 }
   
 header {
@@ -8,7 +9,6 @@ header {
 }
 
 
-  
 .container {
     width: 100%;
     height: 100vh;
@@ -170,15 +170,23 @@ header {
     position: absolute;
     width:700px;
     height: auto;
-    z-index: 999;
+    z-index: 998;
     top: 530px;
 }
 
 /* Rückseite der Box */
 #Rückseite{
     position: absolute;
-    width:700px;
+    width:710px;
     height: auto;
-    
-    top: 390px;
+    top: 383px;
+}
+
+/* Rückseite der Box */
+#Deckel{
+    position: absolute;
+    width:710px;
+    height: auto;
+    z-index: 999;
+    top: 340px;
 }
