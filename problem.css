@@ -1,8 +1,10 @@
-
+.container-inhalt{
+    flex-wrap: wrap;
+}
 
 .bild{
     width: 50%;
-    /* height: auto; */
+    height: auto;
     justify-content: center;
     display:flex;
 }
@@ -11,13 +13,12 @@ img {
     max-width: 500px;
     height: auto;
     
-  }
+}
 
 .text{
     width:50%;
     justify-content: center;
-    
-    padding:80px;
+    padding:45px;
     display: table;
 }
 
@@ -32,4 +33,13 @@ p{
 #orange{
     background-color: #ff8e15;
 }
+
+/*responsive*/
+/* @media screen and (max-width: 600px){
+    .container-inhalt a {
+      flex: 1 0 calc(50% - 50px);
+      float: none;
+      width: 100%;
+    }
+} */
   

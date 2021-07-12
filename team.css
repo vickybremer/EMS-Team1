@@ -1,6 +1,3 @@
-/* hier muss Lösung (H2) eigentlich noch ein Stück
-nach links... ist nicht mittig. */
-
 *{
 	box-sizing: border-box;
   margin:0;
@@ -17,11 +14,14 @@ img{
 }
 .container{
 	max-width: 1170px;
-  margin:auto;
+  	margin:auto;
 }
 .flip-main{
-	min-height: 100vh;
+	min-height: 75vh;
 	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	/* padding: 100px 0; */
   
 }
@@ -74,12 +74,12 @@ img{
 /*responsive*/
 @media(max-width: 991px){
   .flip-main .flip-card {
-    flex: 0 0 calc(50% - 30px);
+    flex: 0 0 calc(25% - 30px);
   }
 }
-@media(max-width: 767px){
+@media(max-width: 750px){
   .flip-main .flip-card {
-    flex: 0 0 calc(100% - 30px);
+    flex: 2 0 calc(40% - 50px);
   }	
 }
 
