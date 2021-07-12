@@ -20,7 +20,7 @@ body{
 
 
 
-  header {
+header {
     font-family: "dunbar tall";
     width: 100%;
     left: 0px;
@@ -35,6 +35,12 @@ body{
     justify-content: center;
     flex-direction: column;
     z-index: 999;
+}
+
+.container-button {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
 }
 
 h1 {
@@ -69,6 +75,7 @@ footer{
     text-align: center;
 }
 
+/* Back Button */
 button{
     color: rgb(255, 255, 255);
     border: none;
@@ -76,6 +83,8 @@ button{
     border-radius: 6px;
     font-size: 13px;
     padding:10px 15px;
+    margin-top: 15px;
+    margin-right: 16px;
     cursor: pointer;
     font-family: "dunbar tall";
 }
