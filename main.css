@@ -6,6 +6,7 @@
 
 body{
 	line-height: 1.5;
+    
     font-family: "dunbar tall";
 	/* font-family: sans-serif;
     font-family: 'Courier New', Courier, monospace; */
@@ -23,9 +24,10 @@ body{
     font-family: "dunbar tall";
     width: 100%;
     left: 0px;
-    height: 100px;
+    height: 120px;
     /* margin-top: 20px; */
     /* margin:20px; */
+    background: #ffffff;
     
     
     display: flex;
@@ -65,5 +67,16 @@ footer{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+}
+
+button{
+    color: rgb(255, 255, 255);
+    border: none;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 13px;
+    padding:10px 15px;
+    cursor: pointer;
+    font-family: "dunbar tall";
 }
 

@@ -4,6 +4,7 @@
     width: 50%;
     /* height: auto; */
     justify-content: center;
+    display:flex;
 }
 
 img {
@@ -17,17 +18,18 @@ img {
     justify-content: center;
     
     padding:20px;
+    display: table;
 }
 
-button{
+p{
+    margin: 20px;
+    
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* Back-To-Box Button Color */
+#red{
     background-color: #ff0000;
-    color: rgb(255, 255, 255);
-    border: none;
-    text-decoration: none;
-    border-radius: 6px;
-    font-size: 13px;
-    padding:10px 15px;
-    cursor: pointer;
-    font-family: "dunbar tall";
 }
   
