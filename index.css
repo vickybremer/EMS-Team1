@@ -165,7 +165,17 @@ header {
     box-shadow: 0 0 10px #bab7da;
 }
   
-img{
+/* Vorderseite der Box */
+#Vorderseite{
+    position: absolute;
+    width:700px;
+    height: auto;
+    z-index: 999;
+    top: 520px;
+}
+
+/* Rückseite der Box */
+#Rückseite{
     position: absolute;
     width:700px;
     height: auto;
