@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-
-div {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
 img {
     display: flex;
     width: 50vh;
