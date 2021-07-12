@@ -9,7 +9,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="open.js"></script>
+    <script>
+
+        let closed = true;
+
+        console.log(closed);
+        function openLid() {
+
+            let img = document.getElementById("imageLid");
+            let cards = document.getElementById("cards");
+            console.log(closed);
+
+            if (closed === true) {
+                img.src = "assets/Opener-Box-Deckel_offen.png"; console.log("I AM OPEN");
+                closed = false;
+                cards.style.top = 40 + "px";
+            } else {
+                img.src = "assets/Opener-Box-geschlossen.png"; console.log("I AM CLOSED");
+                closed = true;
+                cards.style.top = 500 + "px";
+            };
+
+
+
+
+        }</script>
     <!--By Rike-->
 </head>
 
@@ -19,11 +43,11 @@
     <img id="Vorderseite" src="assets/Opener-Box-Vordergrund.png" alt="Vordergund-Box">
     <img id="Rückseite" src="assets/Opener-Box-Hintergrund.png" alt="Hintergrund-Box">
     <img id="imageLid" src="assets/Opener-Box-geschlossen.png" alt="geschlossen">
-    <button id="switch"></button>
+    <button type="button" id="switch" onClick="openLid();"></button>
 
 
 
-    <div class="container">
+    <div id="cards" class="container">
 
         <a class="card_seven" href="literatur.html">
             <p>Literaturverzeichnis</p>
