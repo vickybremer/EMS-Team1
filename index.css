@@ -32,33 +32,28 @@ header {
     color:#b83ae5;
     transform: translateY(-23px);
 }
-/* beweis */
-.card_four:hover{
-    color:#e40a6d;
-    transform: translateY(-23px);
-}
 /* entscheidungsoptionen */
-.card_five:hover{
+.card_four:hover{
     color:#732ddb;
-    
     transform: translateY(-23px);
 }
 /* produktvideo */
-.card_six:hover{
+.card_five:hover{
     color:#00ffbc;
     transform: translateY(-23px);
 }
 /* literaturverzeichnis */
-.card_seven:hover{
-    color:#6f60e7;
+.card_six:hover{
+    color:#e40a6d;
     transform: translateY(-23px);
 }
 
 .card_one{
     position:absolute;
-    top: 490px;
-    width: 580px;
-    height: 150px;
+    /* top: 450px; */
+    bottom: 60px;
+    width: 560px;
+    height: 200px;
     border-radius: 7px;
     background-color:rgb(255, 255, 255);
     color: #48465e;
@@ -72,8 +67,9 @@ header {
 
 .card_two {
     position:absolute;
-    top: 450px;
-    width: 560px;
+    /* top: 410px; */
+    bottom: 100px;
+    width: 540px;
     height: 200px;
     border-radius: 7px;
     background-color:rgb(255, 255, 255);
@@ -88,8 +84,9 @@ header {
 
 .card_three {
     position:absolute;
-    top: 410px;
-    width: 540px;
+    /* top: 370px; */
+    bottom: 140px;
+    width: 520px;
     height: 200px;
     border-radius: 7px;
     background-color:rgb(255, 255, 255);
@@ -104,23 +101,8 @@ header {
 
 .card_four {
     position:absolute;
-    top: 370px;
-    width: 520px;
-    height: 200px;
-    border-radius: 7px;
-    background-color:rgb(255, 255, 255);
-    color: #48465e;
-    text-align: center;
-    font-family: "dunbar tall";
-    text-decoration: none;
-    margin: 0px 10px;
-    transition-duration: 0.2s;
-    box-shadow: 0 0 10px #bab7da;
-} 
-
-.card_five {
-    position:absolute;
-    top: 330px;
+    /* top: 330px; */
+    bottom: 180px;
     width: 500px;
     height: 200px;
     border-radius: 7px;
@@ -134,9 +116,10 @@ header {
     box-shadow: 0 0 10px #bab7da;
 } 
 
-.card_six {
+.card_five{
     position:absolute;
-    top: 290px;
+    /* top: 290px; */
+    bottom: 220px;
     width: 480px;
     height: 200px;
     border-radius: 7px;
@@ -150,9 +133,10 @@ header {
     box-shadow: 0 0 10px #bab7da;
 }
 
-.card_seven {
+.card_six {
     position:absolute;
-    top: 250px;
+    /* top: 250px; */
+    bottom: 260px;
     width: 460px;
     height: 200px;
     border-radius: 7px;
@@ -169,6 +153,9 @@ header {
 #switch {
     width: 30px;
     height: 10px;
+    bottom: 50px;
+    position: absolute;
+    z-index: 997;
     background-color: lightcoral;
 }
 
@@ -178,41 +165,38 @@ header {
 
 
 #imageLid {
-    width: auto;
-    height: 30px;
+    width:700px;
+    height: auto;
+    position:fixed;
+    bottom:0px;
+    z-index: 996;
 }
   
 /* Vorderseite der Box */
 #Vorderseite{
-    position: absolute;
+    /* position: absolute; */
     width:700px;
     height: auto;
-    z-index: 998;
-    top: 530px;
+    z-index: 995;
+    /* top: 530px; */
+    position:fixed;
+    bottom:0;
 }
 
 /* Rückseite der Box */
 #Rückseite{
-    position: absolute;
+    /* position: absolute; */
     width:710px;
     height: auto;
-    top: 383px;
-}
-
-/* Rückseite der Box */
-#Deckel{
-    position: absolute;
-    width:710px;
-    height: auto;
-    z-index: 999;
-    top: 340px;
+    /* top: 383px; */
+    position:fixed;
+    bottom:0;
 }
 
 #cards{
 position: absolute;
 top:500px;
-    
-    display: flex;
-    justify-content: center;
-
+opacity: 0%;
+display: flex;
+justify-content: center;
 }

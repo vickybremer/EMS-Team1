@@ -24,15 +24,17 @@
                 img.src = "assets/Opener-Box-Deckel_offen.png"; console.log("I AM OPEN");
                 closed = false;
                 cards.style.top = 40 + "px";
+                cards.style.opacity=100+ "%";
+                img.style.zIndex = 0;
+                img.style.bottom = 300 + "px";
             } else {
                 img.src = "assets/Opener-Box-geschlossen.png"; console.log("I AM CLOSED");
                 closed = true;
                 cards.style.top = 500 + "px";
+                cards.style.opacity=0+ "%";
+                img.style.zIndex = 996;
+                img.style.bottom = 0 + "px";
             };
-
-
-
-
         }</script>
     <!--By Rike-->
 </head>
@@ -49,17 +51,14 @@
 
     <div id="cards" class="container">
 
-        <a class="card_seven" href="literatur.html">
+        <a class="card_six" href="literatur.html">
             <p>Literaturverzeichnis</p>
         </a>
-        <a class="card_six" href="produktvideo.html">
+        <a class="card_five" href="produktvideo.html">
             <p>Produktvideo</p>
         </a>
-        <a class="card_five" href="entscheidungen.html">
+        <a class="card_four" href="entscheidungen.html">
             <p>Entscheidungsoptionen</p>
-        </a>
-        <a class="card_four" href="beweis.html">
-            <p>Beweis</p>
         </a>
         <a class="card_three" href="Lösung.html">
             <p>Lösung</p>
