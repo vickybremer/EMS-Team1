@@ -77,15 +77,15 @@ img{
     flex: 0 0 calc(25% - 30px);
   }
 }
-@media(max-width: 750px){
+@media(max-width: 900px){
   .flip-main .flip-card {
-    flex: 2 0 calc(40% - 50px);
+    flex: 2 0 calc(40% - 30px);
   }	
 }
 
 .lösung {
   font-weight: 600;
-  font-family: "skia";
+  font-family: "dunbar tall";
   text-align: center;
   font-size: 20;
   color: rgb(252, 227, 255);

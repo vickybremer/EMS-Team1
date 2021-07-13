@@ -21,19 +21,19 @@
             console.log(closed);
 
             if (closed === true) {
-                img.src = "assets/Opener-Box-Deckel_offen.png"; console.log("I AM OPEN");
+                img.src = "assets/Opener-Offen.png"; console.log("I AM OPEN");
                 closed = false;
                 cards.style.top = 40 + "px";
                 cards.style.opacity=100+ "%";
                 img.style.zIndex = 0;
-                img.style.bottom = 300 + "px";
+                img.style.bottom = 330 + "px";
             } else {
-                img.src = "assets/Opener-Box-geschlossen.png"; console.log("I AM CLOSED");
+                img.src = "assets/Opener-Geschlossen.png"; console.log("I AM CLOSED");
                 closed = true;
                 cards.style.top = 500 + "px";
                 cards.style.opacity=0+ "%";
                 img.style.zIndex = 996;
-                img.style.bottom = 0 + "px";
+                img.style.bottom = 8.3 + "px";
             };
         }</script>
     <!--By Rike-->
@@ -42,10 +42,10 @@
 <body>
 
     <br></br>
-    <img id="Vorderseite" src="assets/Opener-Box-Vordergrund.png" alt="Vordergund-Box">
-    <img id="Rückseite" src="assets/Opener-Box-Hintergrund.png" alt="Hintergrund-Box">
-    <img id="imageLid" src="assets/Opener-Box-geschlossen.png" alt="geschlossen">
-    <button type="button" id="switch" onClick="openLid();"></button>
+    <img id="Vorderseite" src="assets/Opener-Vorderseite.png" alt="Vordergund-Box">
+    <img id="Rückseite" src="assets/Opener-Rückseite.png" alt="Hintergrund-Box">
+    <img id="imageLid" src="assets/Opener-Geschlossen.png" alt="geschlossen">
+    <button type="button" id="switch" onClick="openLid();">CLICK</button>
 
 
 

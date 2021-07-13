@@ -150,25 +150,34 @@ header {
     box-shadow: 0 0 10px #bab7da;
 }
 
+/* Button zum Öffnen */
 #switch {
-    width: 30px;
-    height: 10px;
-    bottom: 50px;
+    width: 70px;
+    height: 40px;
+    bottom:105px;
+    margin: 15px;
+    padding: 5px 5px;
     position: absolute;
+    font-family: "dunbar tall";
+    font-size: 20px;
+    background-color: #00ffdb;
     z-index: 997;
-    background-color: lightcoral;
+}
+
+#switch:hover{
+    color:#d3fff9;
 }
 
 #switch:active{
-    background-color: rgb(206, 0, 0);
+    color:#00ffdb;
 }
 
-
+/* Deckel offen/geschlossen */
 #imageLid {
     width:700px;
     height: auto;
     position:fixed;
-    bottom:0px;
+    bottom:8.3px;
     z-index: 996;
 }
   
@@ -186,11 +195,11 @@ header {
 /* Rückseite der Box */
 #Rückseite{
     /* position: absolute; */
-    width:710px;
+    width:700px;
     height: auto;
     /* top: 383px; */
     position:fixed;
-    bottom:0;
+    bottom:10px;
 }
 
 #cards{
