@@ -102,5 +102,5 @@ button{
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
-    width: 1000px;
+    width: 150%;
 }

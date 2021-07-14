@@ -29,10 +29,15 @@
 }
 
 p{
-    text-align: center;
+    color: rgb(174, 116, 185);
+    padding: 15px;
+    font-family: Avenir;
+    font-size: 10px;
+    /* text-align: center; */
 }
 
 .text{
+    font-family: Avenir;
     padding: 40px;
 }
 
