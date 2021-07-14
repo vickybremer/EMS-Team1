@@ -25,22 +25,18 @@
     </header>
     <main>
         <div class="bild-flex"><img src="assets/inaktiv.png" alt="">
-            <p id="unterschrift">Wortschatz im aktiven Zustand.
-                Die Box hat vom inaktiven in den aktiven Zustand gewechselt. Sie signalisiert, dass neue Vokabeln zum
-                Lernen angekommen sind oder das Spiel für den Tag nun gespielt werden kann. Dabei leuchtet die Kante der
-                Box sowie der Knopf zum Öffnen und der Schlitz, zum Einführen der Karten, auf.</p>
+            <p id="unterschrift">Wortschatz im inaktiven Zustand.
+                Die Box ist im Standby Modus und leuchtet auf, wenn neue Vokabeln bei ihr ankommen. </p>
         </div>
         <div class="text"><span>Mit dem Projekt Wortschatz soll der Merkprozess beim Lernen von Englischvokabeln für
                 Schüler:innen optimiert werden. Wortschatz greift das bekannte System einer Karteikartenbox auf. Sie
                 wird durch Technologie unterstützt und fördert insbesondere das Erstellen von Assoziationen zu den
-                Lerninhalten sowie das regelmäßige Wiederholen der Vokabeln anhand von Spielen. Durch das individuelle
-                Erlebnis für die Schüler:innen, werden Emotionen integriert, wodurch der Merkprozess weiterhin optimiert
-                werden kann.
+                Lerninhalten sowie das regelmäßige Wiederholen der Vokabeln anhand von Spielen.
                 <br></br>
-                Die Lehrperson teilt die Vokabeln einer Unit zu Beginn dieser in kleine Blöcke auf. Diese werden durch
-                BLA HIER BITTE TECHNIK TEAM auf die Vokabelbox des Kindes übertragen. So erhält jede Karte innerhalb der
-                Box eine neue Vokabel. Jeden Tag der Schulwoche steht eine kleine Aufgabe an, die anhand eines Spieles
-                zu bearbeiten ist.
+                Die Lehrperson teilt die Vokabeln einer Unit zu Beginn dieser in kleine Blöcke auf. Diese werden über
+                einen socket.io Server an die verschiedenen Vokabelboxen (Clients) gesendet, wo sie auf die einzelnen
+                Karten beschrieben werden. So erhält jede Karte innerhalb der Box eine neue Vokabel. Jeden Tag der
+                Schulwoche steht eine kleine Aufgabe an, die anhand eines Spieles zu bearbeiten ist.
                 <br></br>
                 <b>Mit einem Klick auf die Knöpfe können Sie sehen wie Wortschatz funktioniert!</b> </span></div>
 

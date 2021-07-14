@@ -41,7 +41,11 @@ h1 {
 h2 {
     font-size: 40px;
     text-align: center;
-    padding-top:10px;
+    padding-top:0px;
+}
+
+.come-down-please{
+    padding: 33px;;
 }
 
 /* TEAMKARTEN NAME ETC */

@@ -23,6 +23,15 @@ img{
 
 }
 
+main{
+	top:200px;
+}
+
+p{
+	font-family: Avenir;
+	text-align: left;
+}
+
 .row{
 	
     display: flex;
@@ -58,6 +67,7 @@ img{
 	
 	width: 50%;
 	/* padding: 100px 0; */
+	
   
 }
 .flip-main .flip-card{
@@ -119,6 +129,20 @@ img{
         }
 } */
   
+@media(max-width:1000px){
+	.row{
+		flex-direction: column;
+	}
+	.flip-main{
+	width: 30%;
+	}
+	.flip-main .flip-card-back p{
+		font-size: 12px;
+	}
+	
+}
+
+
 @media(max-width:800px){
 	main{
 		flex-direction: column;
@@ -136,5 +160,11 @@ img{
 	}
 	.container {
 		margin: 30px;
+	}
+	.row{
+		flex-direction: row;
+	}
+	.flip-main .flip-card-back p{
+		font-size: 16px;
 	}
 }
