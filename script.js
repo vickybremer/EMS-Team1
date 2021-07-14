@@ -14,7 +14,7 @@ btn1.addEventListener('click', () => {
 
 btn2.addEventListener('click', () => {
     img.src = 'assets/neues vokabelpaket.png';
-    document.getElementById('unterschrift').innerHTML = "NEW VOKKIS";
+    document.getElementById('unterschrift').innerHTML = "Wortschatz im aktiven Zustand. Die Box hat vom inaktiven in den aktiven Zustand gewechselt. Sie signalisiert, dass neue Vokabeln zum Lernen angekommen sind oder das Spiel für den Tag nun gespielt werden kann. Dabei leuchtet die Kante der Box sowie der Knopf zum Öffnen und der Schlitz, zum Einführen der Karten, auf.";
 })
 
 btn3.addEventListener('click', () => {

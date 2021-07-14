@@ -7,6 +7,9 @@
 .container-statebuttons {
     text-align: center;
     margin-bottom: 70px;
+    display:flex;
+    justify-content: center;
+    
 } 
 
 /* Zustand-button  */
@@ -30,7 +33,7 @@
 
 p{
     color: rgb(174, 116, 185);
-    padding: 15px;
+    margin-left: 40px;;
     font-family: Avenir;
     font-size: 10px;
     /* text-align: center; */
@@ -38,11 +41,30 @@ p{
 
 .text{
     font-family: Avenir;
-    padding: 40px;
+    padding: 60px;
+    display:flex;
+    width:60%;
+}
+
+.bild-flex{
+    display: flex;
+    height: 400px;
+    width:40%;
+
+}
+
+img{
+    top: -300px;
+    align-self: center;
+width: 60%;
 }
 
 @media(max-width: 990px){
     .bild-flex {
       flex: 0 0 calc(55% - 30px);
+    }
+    .text{
+        padding:30px;
+        width:80%;
     }
 }
