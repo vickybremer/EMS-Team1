@@ -10,25 +10,42 @@ img{
 }
 
 .content{
+	
 	font-family: Avenir;
     padding-left:60px;
 	padding-top:40px;
 	padding-right:40px;
 	padding-bottom: 40px;
-	display: flex;
+	
 	width: 50%;
+	align-content: center;
+	
 
 }
 
+main{
+	top:200px;
+}
+
+p{
+	font-family: Avenir;
+	text-align: left;
+}
+
 .row{
+	
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;  
+    justify-content: center; 
+	
+	
 }
 
 .container{
 	max-width: 90%;
+	align-self: center;
   	/* margin: 30px; */
+	  
 }
 
 /*responsive*/
@@ -44,16 +61,17 @@ img{
 }
 
 .flip-main{
-	min-height: 80vh;
+	
+	align-content: center;
 	background-color: #ffffff;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	
 	width: 50%;
 	/* padding: 100px 0; */
+	
   
 }
 .flip-main .flip-card{
+	min-height: 40vh;
     flex:0 0 calc(50% - 30px);
     margin:0 15px 30px;
     perspective: 1000px; /*remove this if you dont want the 3d effect*/
@@ -111,3 +129,42 @@ img{
         }
 } */
   
+@media(max-width:1000px){
+	.row{
+		flex-direction: column;
+	}
+	.flip-main{
+	width: 30%;
+	}
+	.flip-main .flip-card-back p{
+		font-size: 12px;
+	}
+	
+}
+
+
+@media(max-width:800px){
+	main{
+		flex-direction: column;
+	}
+	.content{
+		width:100%;
+		padding-left:30px;
+	padding-top:20px;
+	padding-right:20px;
+	padding-bottom: 20px;
+	}
+	.flip-main{
+		width:100%;
+		
+	}
+	.container {
+		margin: 30px;
+	}
+	.row{
+		flex-direction: row;
+	}
+	.flip-main .flip-card-back p{
+		font-size: 16px;
+	}
+}

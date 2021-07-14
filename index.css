@@ -1,12 +1,16 @@
 body {
     background: #1e1b3d;
     overflow: hidden;
+    display:flex;
+    justify-content: center;
 }
   
 header {
     background: #1e1b3d;
     text-align: center;
 }
+
+
 
 h5 {
     color: rgb(228, 228, 228);

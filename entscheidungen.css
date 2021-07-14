@@ -1,15 +1,4 @@
-footer{
-    width: 100%;
-    bottom: 20px;
-    position: fixed;
-    left: 0;
-    height: 50px;
-    
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
+
 
 #purple{
     background-color:#732ddb;
@@ -20,6 +9,10 @@ footer{
   margin:0;
   border-radius: 7px;
 }
+
+
+
+
 
 img{
 	max-width: 100%;
@@ -43,7 +36,8 @@ img{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	/* padding: 100px 0; */
+	align-content: center;
+	padding: 20px;
   
 }
 .flip-main .flip-card{
@@ -84,9 +78,11 @@ img{
 	margin:0 0 5px;
 }
 .flip-main .flip-card-back p{
-	font-size: 16px;
+	font-size: 13px;
 	color: #000000;
 	margin:0;
+	font-family: Avenir;
+	text-align: left;
 }
 .flip-main .flip-card:hover .flip-card-inner{
    transform: rotateY(180deg);
