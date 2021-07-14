@@ -9,6 +9,7 @@ let btn7 = document.querySelector('#btn7');
 
 btn1.addEventListener('click', () => {
     img.src = 'assets/inaktiv.png';
+    document.getElementById('unterschrift').innerHTML = "new text";
 })
 
 btn2.addEventListener('click', () => {
