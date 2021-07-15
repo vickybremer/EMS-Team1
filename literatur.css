@@ -71,8 +71,10 @@ img{
 	margin:0 0 5px;
 }
 .flip-main .flip-card-back p{
-	font-size: 16px;
-	color: #000000;
+	font-family: Avenir;
+	text-align:left ;
+	font-size: 13px;
+	color: #1e1b3d;
 	margin:0;
 }
 .flip-main .flip-card:hover .flip-card-inner{
@@ -89,6 +91,9 @@ img{
   .flip-main .flip-card {
     flex: 2 0 calc(40% - 30px);
   }	
+  .flip-main .flip-card-back p{
+	  font-size: 20px;
+  }
 }
 
 .lösung {
