@@ -22,7 +22,7 @@
     border: none;
     text-decoration: none;
     font-family: "dunbar tall";
-    background-color: #aa95b1;
+    background-color: #1e1b3d;
     color: rgb(255, 255, 255);
     font-size: 13px;
     cursor: pointer;
@@ -32,10 +32,10 @@
 }
 
 p{
-    color: rgb(174, 116, 185);
+    color: #b83ae5;
     margin-left: 40px;;
     font-family: Avenir;
-    font-size: 10px;
+    font-size: 11px;
     /* text-align: center; */
 }
 
