@@ -104,12 +104,12 @@ p{
 	transform: rotateY(180deg);
 }
 .flip-main .flip-card-back h3{
-	font-size: 24px;
+	font-size: 20px;
 	color: #000000;
 	margin:0 0 5px;
 }
 .flip-main .flip-card-back p{
-	font-size: 16px;
+	font-size: 15px;
 	color: #000000;
 	margin:0;
 }
@@ -128,6 +128,17 @@ p{
             min-width: 60%;
         }
 } */
+
+
+@media(max-width:1200px){
+	
+	
+	.flip-main .flip-card-back p{
+		font-size: 12px;
+	}
+	
+}
+
   
 @media(max-width:1000px){
 	.row{
