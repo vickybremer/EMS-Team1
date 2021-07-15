@@ -89,15 +89,21 @@ img{
 }
 
 /*responsive*/
-@media(max-width: 991px){
+@media(max-width: 1050px){
   .flip-main .flip-card {
     flex: 0 0 calc(25% - 30px);
   }
+  .flip-main .flip-card-back p{
+	font-size: 9px;
+}
 }
 @media(max-width: 900px){
   .flip-main .flip-card {
     flex: 2 0 calc(40% - 30px);
   }	
+  .flip-main .flip-card-back p{
+	  font-size: 16px;
+  }
 }
 
 .lösung {

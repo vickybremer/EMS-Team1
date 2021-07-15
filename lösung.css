@@ -32,8 +32,9 @@
 }
 
 p{
-    color: #b83ae5;
-    margin-left: 40px;;
+    color: rgb(174, 116, 185);
+    margin-left: 60px;
+    margin-right: 20px;
     font-family: Avenir;
     font-size: 11px;
     /* text-align: center; */
@@ -61,7 +62,7 @@ width: 60%;
 
 @media(max-width: 990px){
     .bild-flex {
-      flex: 0 0 calc(55% - 30px);
+      flex: 0 0 calc(85% - 30px);
     }
     .text{
         padding:30px;
