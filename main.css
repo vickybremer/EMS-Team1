@@ -2,7 +2,9 @@
 
 body{
 	line-height: 1.5;
-    font-family: "dunbar tall";
+    font-family: "Avenir";
+    
+
     margin-left: auto;
     margin-right: auto; 
     /* display: flex; */
@@ -11,7 +13,8 @@ body{
 
 /* HEADER GESAMT */
 header {
-    font-family: "dunbar tall";
+    font-family: "Avenir";
+    
     width: 100%;
     /* left: 0px; */
     height: 120px;
@@ -31,10 +34,12 @@ header {
 
 /* WORTSCHATZ */
 h1 {
+    
     color: rgb(172, 172, 172);
     font-size: 13px;
     margin-top:20px;
     padding-left:20px;
+    
 }
 
 /* KAPITELÜBERSCHRIFT */
@@ -50,7 +55,7 @@ h2 {
 
 /* TEAMKARTEN NAME ETC */
 h3 {
-    font-family: "dunbar tall";
+    font-family: "Avenir";
 }
 
 /* CONTENT */
@@ -92,7 +97,7 @@ button{
     margin-top: 15px;
     margin-right: 16px;
     cursor: pointer;
-    font-family: "dunbar tall";
+    font-family: "Avenir";
     margin-bottom: 60px;
 }
 
